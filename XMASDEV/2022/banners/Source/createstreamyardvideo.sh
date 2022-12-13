@@ -47,11 +47,9 @@ ffmpeg \
   -loop 1 -t 10 -i sponsor/sponsor2/sponsor2_2.png \
   -loop 1 -t 10 -i sponsor/sponsor3/sponsor3_1.png \
   -loop 1 -t 10 -i sponsor/sponsor3/sponsor3_2.png \
-  -loop 1 -t 10 -i sponsor/sponsor4/sponsor4_1.png \
-  -loop 1 -t 10 -i sponsor/sponsor4/sponsor4_2.png \
-  -i AzureDayMarkoCut.mpeg \
+  -i audio.mp3 \
   -filter_complex "[0]scale=1920:1080[s0];[1]scale=1920:1080[s1];[2]scale=1920:1080[s2];[3]scale=1920:1080[s3];[4]scale=1920:1080[s4];[5]scale=1920:1080[s5];  \
-  [6]scale=1920:1080[s6];[7]scale=1920:1080[s7];[8]scale=1920:1080[s8];[9]scale=1920:1080[s9];[10]scale=1920:1080[s10];[11]scale=1920:1080[s11];[12]scale=1920:1080[s12];[13]scale=1920:1080[s13];[14]scale=1920:1080[s14];
+  [6]scale=1920:1080[s6];[7]scale=1920:1080[s7];[8]scale=1920:1080[s8];[9]scale=1920:1080[s9];[10]scale=1920:1080[s10];[11]scale=1920:1080[s11];[12]scale=1920:1080[s12];
   [s0][s1]xfade=transition=pixelize:duration=1:offset=9,format=yuv420p[s01]; \
   [s01][s2]xfade=transition=pixelize:duration=1:offset=18,format=yuv420p[s02]; \
   [s02][s3]xfade=transition=pixelize:duration=1:offset=27,format=yuv420p[s03]; \
@@ -63,7 +61,5 @@ ffmpeg \
   [s08][s9]xfade=transition=pixelize:duration=1:offset=81,format=yuv420p[s09]; \
   [s09][s10]xfade=transition=pixelize:duration=1:offset=90,format=yuv420p[s010]; \
   [s010][s11]xfade=transition=pixelize:duration=1:offset=99,format=yuv420p[s011]; \
-  [s011][s12]xfade=transition=pixelize:duration=1:offset=108,format=yuv420p[s012]; \
-  [s012][s13]xfade=transition=pixelize:duration=1:offset=117,format=yuv420p[s013]; \
-  [s013][s14]xfade=transition=pixelize:duration=1:offset=126,format=yuv420p" $parameterO
+  [s011][s12]xfade=transition=pixelize:duration=1:offset=108,format=yuv420p" $parameterO
 
