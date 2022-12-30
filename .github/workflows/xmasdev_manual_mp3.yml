@@ -27,8 +27,8 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v3
-      with:
-        path: main
+      #with:
+      #  path: main
 
 # Runs a single command using the runners shell
       #echo "Hello ${{ github.event.inputs.name }}"
