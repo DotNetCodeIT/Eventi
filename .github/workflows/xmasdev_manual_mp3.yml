@@ -22,7 +22,7 @@ jobs:
   makefile:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-
+    environment: workflow
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: Checkout
@@ -42,8 +42,8 @@ jobs:
     - name: commit new file
       #shell: bash
       run: |
-        git config user.email "congiuluc@hotmail.com"
-        git config user.name "Luca Congiu"
+        git config user.email ${{ secrets.GIT_USERNAME }}
+        git config user.name ${{ secrets.GIT_NAME }}
         git add .
         git commit -m 'created audio file'
         git push
