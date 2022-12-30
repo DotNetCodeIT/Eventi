@@ -38,6 +38,12 @@ jobs:
       run: |
         cd XMASDEV/2022/banners/Source
         bash createaudiofile.sh xmasdev.mp3
+
+    - name: commit new file
+      #shell: bash
+      run: |
+        git config user.email "congiuluc@hotmail.com"
+        git config user.name "Luca Congiu"
         git add .
         git commit -m 'created audio file'
         git push
