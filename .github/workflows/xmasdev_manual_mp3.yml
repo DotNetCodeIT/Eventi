@@ -19,7 +19,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "greet"
-  greet:
+  makefile:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -31,9 +31,8 @@ jobs:
         path: main
 
 # Runs a single command using the runners shell
+      #echo "Hello ${{ github.event.inputs.name }}"
     - name: create file
-      shell: bash
-      run: |
-       cd ./Eventi/XMASDEV/2022/banners/Source/
-       createaudiofile.sh 
-       #echo "Hello ${{ github.event.inputs.name }}"
+      #shell: bash
+      run: bash Eventi/XMASDEV/2022/banners/Source/createaudiofile.sh 
+
