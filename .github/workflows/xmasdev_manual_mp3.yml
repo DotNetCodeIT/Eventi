@@ -38,4 +38,7 @@ jobs:
       run: |
         cd XMASDEV/2022/banners/Source
         bash createaudiofile.sh xmasdev.mp3
+        git add .
+        git commit -m 'created audio file'
+        git push
 
