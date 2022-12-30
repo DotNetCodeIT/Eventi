@@ -33,4 +33,4 @@ jobs:
 # Runs a single command using the runners shell
     - name: create file
       shell: bash
-      run: ./XMASDEV/2022/banners/Source/createaudiofile.sh #echo "Hello ${{ github.event.inputs.name }}"
+      run: ./Eventi/XMASDEV/2022/banners/Source/createaudiofile.sh #echo "Hello ${{ github.event.inputs.name }}"
