@@ -34,5 +34,5 @@ jobs:
       #echo "Hello ${{ github.event.inputs.name }}"
     - name: create file
       #shell: bash
-      run: bash Eventi/XMASDEV/2022/banners/Source/createaudiofile.sh 
+      run: bash XMASDEV/2022/banners/Source/createaudiofile.sh 
 
