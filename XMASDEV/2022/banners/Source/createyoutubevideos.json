@@ -1,5 +1,1286 @@
-{
-        "data": {
-                "x": "Hello, world!"
-        }
-}
+[
+  {
+    "groupId": null,
+    "groupName": "All",
+    "sessions": [
+      {
+        "questionAnswers": [],
+        "id": "402329",
+        "title": "Babbo Natale vuole vivere senza stress",
+        "description": "Polo nord, mancano pochi mesi al periodo natalizio e Babbo Natale ha chiesto a Sugarplum Maria, la sua CTO, di verificare che il sistema di ordini che hanno adottato sia in grado di scalare rispetto al carico  che si aspettano. Riuscirà Maria insieme ad Alabaster Snowball a mettere sotto pressione l’infrastruttura? Nella sessione vedremo come Alabaster e Maria useranno Azure Load Test per stressare il sistema ed arrivare alla consegna dei regali con qualche preoccupazione in meno",
+        "startsAt": "2022-12-16T08:40:00Z",
+        "endsAt": "2022-12-16T09:25:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "e2ad7c1f-be54-4582-8cc3-f866ad5f76f3",
+            "name": "Emanuele Garofalo"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148957,
+                "name": "DevOps"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148969,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148974,
+                "name": "Azure"
+              },
+              {
+                "id": 148976,
+                "name": "DevOps"
+              },
+              {
+                "id": 148991,
+                "name": "Live in Rome"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29895,
+        "room": "Track Panettone",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "400970",
+        "title": "Arriva Natale, teniamo tutto sotto controllo!",
+        "description": "Anche il team di Babbo Natale ha bisogno di monitorare tutto quello che succede nella catena di produzione e consegna, per questo utilizza Blazor, i Cognitive Services e il linguaggio naturale per tenere tutto sotto controllo. Vediamo insieme come.",
+        "startsAt": "2022-12-16T08:40:00Z",
+        "endsAt": "2022-12-16T09:25:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "cf9abded-8aa6-4a45-ab98-334201635c72",
+            "name": "Michele Aponte"
+          },
+          {
+            "id": "10336ba2-40ff-4c5f-b7d4-3cb1a6f501b3",
+            "name": "Salvatore Merone"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148958,
+                "name": "A.I."
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148969,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148974,
+                "name": "Azure"
+              },
+              {
+                "id": 148975,
+                "name": "Dev"
+              },
+              {
+                "id": 148980,
+                "name": "Web"
+              },
+              {
+                "id": 148981,
+                "name": "App"
+              },
+              {
+                "id": 148982,
+                "name": "A.I."
+              },
+              {
+                "id": 148983,
+                "name": "Cognitive Services"
+              },
+              {
+                "id": 148984,
+                "name": "Machine Learning"
+              },
+              {
+                "id": 148985,
+                "name": "Development"
+              },
+              {
+                "id": 148987,
+                "name": "Data"
+              },
+              {
+                "id": 148991,
+                "name": "Live in Rome"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29896,
+        "room": "Track Pandoro",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "405788",
+        "title": "Riuscirà il grinch a compromettere i repository di Santa Claus?",
+        "description": "Quest’anno il grinch è più determinato che mai a sabotare il Natale, compromettendo la DevOps supply chain di tutta Rovaniemi!\r\nSarà in grado Babbo Natale di difendersi dagli attacchi utilizzando le funzionalità e gli ultimi strumenti che GitHub ed Azure DevOps mettono a disposizione per rendere repository e pipelines sicure ed inattaccabili?\r\n",
+        "startsAt": "2022-12-16T09:25:00Z",
+        "endsAt": "2022-12-16T10:10:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "d7350a3b-d34d-464d-a0c3-4c76121edc04",
+            "name": "Giorgio Lasala"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148957,
+                "name": "DevOps"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148969,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148974,
+                "name": "Azure"
+              },
+              {
+                "id": 148976,
+                "name": "DevOps"
+              },
+              {
+                "id": 148988,
+                "name": "Security"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29895,
+        "room": "Track Panettone",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "403035",
+        "title": "Regali quantici",
+        "description": "Quest'anno Babbo Natale non ha bisogno di uscire con la slitta  per consegnare i vostri regali! Li consegnerà comodamente da casa sorseggiando un ottimo thè caldo. \r\nCome? Grazie al protocollo del teletrasporto quantico!",
+        "startsAt": "2022-12-16T09:25:00Z",
+        "endsAt": "2022-12-16T10:10:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "93fc6c6f-85ff-4892-a52c-08cb1e94b69c",
+            "name": "Mario Cuomo"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148956,
+                "name": "Dev"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148969,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148991,
+                "name": "Live in Rome"
+              },
+              {
+                "id": 148992,
+                "name": "Live Streaming"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29896,
+        "room": "Track Pandoro",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "400323",
+        "title": "Come Azure Arc può aiutarci a gestire e modernizzare i data center di Babbo Natale?",
+        "description": "Oggigiorno riuscire a soddisfarsi i desideri delle persone in una sola notte è un compito quasi impossibile, e Babbo Natale riesce  a farlo solo grazie ad un'eccellente rete di logistica.\r\nNel corso degli anni ha distribuito diversi impianti in tutto il mondo, ognuno con un data center on-premises dedicato, dove centinaia di elfi preparano regali; questo ha permesso a Babbo Natale di incrementare l'efficienza del suo business. Sfortunatamente però tutto ha un prezzo, ed in questo caso Babbo Natale si è trovato a dover assumere dozzine di elfi nerd affinché potessero mantenere efficienti questi data center, utilizzando i più svariati strumenti.\r\nSe solo questi nerd con le orecchie a punta potessero governare tutto da un'unica console di gestione... Babbo Natale potrebbe riassegnarne alcuni alla produzione di regali!\r\nFacciamogli vedere come può governare e modernizzare la sua infrastruttura distribuita grazie ad Azure Arc!\r\n",
+        "startsAt": "2022-12-16T10:30:00Z",
+        "endsAt": "2022-12-16T11:15:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "321c2834-da3a-480c-ac66-e9cc80a6df65",
+            "name": "Marco Obinu"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148964,
+                "name": "Architecture"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148969,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148974,
+                "name": "Azure"
+              },
+              {
+                "id": 148977,
+                "name": "IaaS"
+              },
+              {
+                "id": 148978,
+                "name": "PaaS"
+              },
+              {
+                "id": 148986,
+                "name": "Architecture"
+              },
+              {
+                "id": 148988,
+                "name": "Security"
+              },
+              {
+                "id": 148991,
+                "name": "Live in Rome"
+              },
+              {
+                "id": 148992,
+                "name": "Live Streaming"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29895,
+        "room": "Track Panettone",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "402391",
+        "title": "PowerA-dvent Calendar!",
+        "description": "Dicembre. Cielo nuovoloso, freddo, prepararsi la mattina diventa un'impresa, andare al lavoro col buonumore ancora di più.\r\n\r\nCosa potrebbe rallegrare gli animi e farci partire col piede giusto?\r\n\r\nUn calendario dell'avvento digitale!\r\n\r\nVi spiego come anche un non-tecnico può riuscire a svilupparlo e renderlo disponibile a tutta l'azienda, con la forza del low-code e di Power Platform!\r\n\r\nVedremo la costruzione sia del front end da cui aprire giorno per giorno le caselline del calendario, sia il back office con cui gestire quali sorprese far comparire, sia come comunicare e condividere con i colleghi il sorriso ritrovato.",
+        "startsAt": "2022-12-16T10:30:00Z",
+        "endsAt": "2022-12-16T11:15:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "05f1c47e-9bcb-47fa-b10a-baf1b5a0908b",
+            "name": "Alessandro Borgogno"
+          },
+          {
+            "id": "ae4af12a-64ef-4fef-909a-a04bb9446176",
+            "name": "Marco Rocca"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148956,
+                "name": "Dev"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148968,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148975,
+                "name": "Dev"
+              },
+              {
+                "id": 148981,
+                "name": "App"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29896,
+        "room": "Track Pandoro",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "402350",
+        "title": "Come si gestisce la comunicazione tra Babbo Natale e gli elfi?",
+        "description": "Gli elfi hanno compiti specifici e comunicano tra di loro, ma Babbo Natale come comunica con gli elfi?\r\nIn pochi minuti vedremo come YARP possa mettere in comunicazione Babbo Natale che ha necessità solo di alcune informazioni e gli Elfi che lavorano dietro le quinte.",
+        "startsAt": "2022-12-16T11:15:00Z",
+        "endsAt": "2022-12-16T12:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "d79d3896-cef7-4baa-bad8-e0063b620c71",
+            "name": "Andrea Tosato"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148956,
+                "name": "Dev"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148970,
+                "name": "Advanced"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [],
+            "sort": 4
+          }
+        ],
+        "roomId": 29895,
+        "room": "Track Panettone",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "402123",
+        "title": "Le novità di .NET 7.0 sotto l'albero",
+        "description": "Come ogni anno, Microsoft ci ha regalato una nuova versione di .NET. Ma siamo stati davvero dei bravi sviluppatori, e quindi Microsoft ci ha portato tutto quello che ci aveva promesso? Spacchettiamo insieme le novità nel corso di questa sessione.",
+        "startsAt": "2022-12-16T11:15:00Z",
+        "endsAt": "2022-12-16T12:00:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "2ec9f6dc-8287-4f90-bbbd-3798994539f5",
+            "name": "Marco Minerva"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148956,
+                "name": "Dev"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148968,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148975,
+                "name": "Dev"
+              },
+              {
+                "id": 148980,
+                "name": "Web"
+              },
+              {
+                "id": 148985,
+                "name": "Development"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29896,
+        "room": "Track Pandoro",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "402516",
+        "title": "Entriamo nel babboverso",
+        "description": "Poteva babbo natale non essere al passo con i tempi? In questa sessione entreremo nel babboverso e scopriremo quali tecnologie utilizzano babbo natale ed i suoi Elfi per trasformare il loro mondo reale nella controparte virtuale! ",
+        "startsAt": "2022-12-16T13:00:00Z",
+        "endsAt": "2022-12-16T13:45:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "eeba619d-5516-42f3-a342-19b70ae7d75d",
+            "name": "Alessio Iafrate"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148956,
+                "name": "Dev"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148968,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148974,
+                "name": "Azure"
+              },
+              {
+                "id": 148985,
+                "name": "Development"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29895,
+        "room": "Track Panettone",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "397283",
+        "title": "Babbo Natale e le letterine scritte in linguaggi diversi",
+        "description": "Come ogni anno Babbo Natale è alle prese con migliaia di letterine scritte in linguaggi diversi, ognuna delle quali necessita di un traduttore, o di un compilatore, diverso, per essere interpretata.\r\nIl rischio è quello di non essere in grado di leggerle tutte, di tralasciare quelle scritte in linguaggi non interpretabili dai suoi moderni strumenti di ricezione.\r\nPer sua fortuna la soluzione è arrivata giusto in tempo. A lui basta prendere tutte le letterine e passarle al setaccio tramite WebAssembly.\r\nSarà vero che finalmente abbiamo trovato l'esperanto dei linguaggi? Scopriamolo insieme e vediamo di capire cos'è e cosa fa WebAssembly.",
+        "startsAt": "2022-12-16T13:00:00Z",
+        "endsAt": "2022-12-16T13:45:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "45c78ee1-8db8-4858-bf50-bb970b5587fb",
+            "name": "Alberto Acerbis"
+          },
+          {
+            "id": "e027e9eb-0aa5-46ae-8e9a-b15302a5d740",
+            "name": "Stefano Maffeis"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148956,
+                "name": "Dev"
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148969,
+                "name": "Intermediate"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148975,
+                "name": "Dev"
+              },
+              {
+                "id": 148980,
+                "name": "Web"
+              },
+              {
+                "id": 148985,
+                "name": "Development"
+              },
+              {
+                "id": 148986,
+                "name": "Architecture"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29896,
+        "room": "Track Pandoro",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "403809",
+        "title": "Dolcetto o carbone? ML.NET in soccorso della Befana!",
+        "description": "Tutti gli anni la Befana deve ordinare il carbone per le calze dei bambini più birbanti, ha quindi necessità di sapere con anticipo chi lo è stato e chi no. Per aiutarla utilizzeremo le caratteristiche di ML.NET per ricavare queste preziose informazioni. Seguiteci, altrimenti rischiate che arrivi il carbone anche a voi!",
+        "startsAt": "2022-12-16T13:45:00Z",
+        "endsAt": "2022-12-16T14:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "3c400794-c9cc-40d2-8b01-bfb887fc31c8",
+            "name": "Laura Villa"
+          },
+          {
+            "id": "5f820dd6-75a1-497f-a658-a5d6ef0b52ce",
+            "name": "Riccardo Cappello"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148958,
+                "name": "A.I."
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148968,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148974,
+                "name": "Azure"
+              },
+              {
+                "id": 148975,
+                "name": "Dev"
+              },
+              {
+                "id": 148982,
+                "name": "A.I."
+              },
+              {
+                "id": 148984,
+                "name": "Machine Learning"
+              },
+              {
+                "id": 148991,
+                "name": "Live in Rome"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29895,
+        "room": "Track Panettone",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "399960",
+        "title": "The Naughty Elves of Cognitive Xmas: An Azure Story",
+        "description": "This holiday season, everyone can use Azure Cognitive Services to enjoy family fun.\r\nCreate your own AI Fat-A-Claus bot. Obtain automatic xmas wish lists by polling your kids. Analyse images of all the presents, and distinguish the ones with socks from the good ones with chocolates. And then take that fun and build work apps after the holidays.\r\nDisclaimer: You still have to buy your own presents...",
+        "startsAt": "2022-12-16T13:45:00Z",
+        "endsAt": "2022-12-16T14:30:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "f3921f66-7c67-4961-9c5d-e8706292aaaf",
+            "name": "André Melancia"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148958,
+                "name": "A.I."
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148968,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148972,
+                "name": "English"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148974,
+                "name": "Azure"
+              },
+              {
+                "id": 148978,
+                "name": "PaaS"
+              },
+              {
+                "id": 148982,
+                "name": "A.I."
+              },
+              {
+                "id": 148983,
+                "name": "Cognitive Services"
+              },
+              {
+                "id": 148984,
+                "name": "Machine Learning"
+              },
+              {
+                "id": 148985,
+                "name": "Development"
+              },
+              {
+                "id": 148987,
+                "name": "Data"
+              },
+              {
+                "id": 148989,
+                "name": "Serverless"
+              },
+              {
+                "id": 148990,
+                "name": "IoT"
+              },
+              {
+                "id": 148991,
+                "name": "Live in Rome"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29896,
+        "room": "Track Pandoro",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "397536",
+        "title": "Pandoro o Panettone? Ai Cognitive Services l'ardua sentenza!",
+        "description": "In passato si sono scatenate atroci e sanguinose faide tra chi preferisce la fragranza del panettone alla burrosità del pandoro. Tu non sai cosa scegliere? Allora questa sessione fa al caso tuo: comecsfruttare i Cognitive Services e, in particolare, Object Detection di Custom Vision per creare un modello di Ai che ci permetta di riconoscere panettoni e pandori all'interno delle immagini. E il torrone.....chi verrà vedrà.",
+        "startsAt": "2022-12-16T14:30:00Z",
+        "endsAt": "2022-12-16T15:15:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "fb0a2ca4-d763-48c7-adc5-4d6f7153afc2",
+            "name": "Massimo Bonanni"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148958,
+                "name": "A.I."
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148970,
+                "name": "Advanced"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148974,
+                "name": "Azure"
+              },
+              {
+                "id": 148978,
+                "name": "PaaS"
+              },
+              {
+                "id": 148979,
+                "name": "SaaS"
+              },
+              {
+                "id": 148983,
+                "name": "Cognitive Services"
+              },
+              {
+                "id": 148989,
+                "name": "Serverless"
+              },
+              {
+                "id": 148991,
+                "name": "Live in Rome"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29895,
+        "room": "Track Panettone",
+        "liveUrl": null,
+        "recordingUrl": null
+      },
+      {
+        "questionAnswers": [],
+        "id": "404422",
+        "title": "AI Tombola",
+        "description": "L'estrazione dei numeri della tombola è sempre un momento importante durante le feste del periodo natalizio. In questa sessione capiremo come modernizzare questa attività sfruttando i Cognitive Services di Microsoft.",
+        "startsAt": "2022-12-16T14:30:00Z",
+        "endsAt": "2022-12-16T15:15:00Z",
+        "isServiceSession": false,
+        "isPlenumSession": false,
+        "speakers": [
+          {
+            "id": "c90264bf-f479-4bc2-9aa1-64338dcfd556",
+            "name": "Antonio Pierascenzi"
+          }
+        ],
+        "categories": [
+          {
+            "id": 45051,
+            "name": "Session format",
+            "categoryItems": [
+              {
+                "id": 148955,
+                "name": "Session"
+              }
+            ],
+            "sort": 0
+          },
+          {
+            "id": 45052,
+            "name": "Track",
+            "categoryItems": [
+              {
+                "id": 148958,
+                "name": "A.I."
+              }
+            ],
+            "sort": 1
+          },
+          {
+            "id": 45053,
+            "name": "Level",
+            "categoryItems": [
+              {
+                "id": 148968,
+                "name": "Introductory and overview"
+              }
+            ],
+            "sort": 2
+          },
+          {
+            "id": 45054,
+            "name": "Language",
+            "categoryItems": [
+              {
+                "id": 148973,
+                "name": "Italiano"
+              }
+            ],
+            "sort": 3
+          },
+          {
+            "id": 45055,
+            "name": "Tags",
+            "categoryItems": [
+              {
+                "id": 148974,
+                "name": "Azure"
+              },
+              {
+                "id": 148982,
+                "name": "A.I."
+              },
+              {
+                "id": 148983,
+                "name": "Cognitive Services"
+              }
+            ],
+            "sort": 4
+          }
+        ],
+        "roomId": 29896,
+        "room": "Track Pandoro",
+        "liveUrl": null,
+        "recordingUrl": null
+      }
+    ],
+    "isDefault": false
+  }
+]
