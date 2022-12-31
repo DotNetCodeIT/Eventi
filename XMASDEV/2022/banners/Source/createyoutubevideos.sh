@@ -15,6 +15,17 @@ fi
  
 json=$(cat $config)
 
+
+
+while read youtube; do
+   roomId=$(jq -r '.roomId' <<< "$youtube")
+   echo $roomId
+   url=$(jq -r '.url' <<< "$youtube")
+   echo $url
+   yt-dlp --downloader aria2c $url
+done <<< $(jq -c '.youtubelive[]' $config)
+
+
 while read session; do
    title=$(jq -r '.title' <<< "$session")
    echo $title
