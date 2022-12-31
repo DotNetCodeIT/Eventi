@@ -17,6 +17,6 @@ json=$(cat $config)
 
 while read user; do
     jq -r '.title' <<< $user
-done <<< $(jq -c '.sessions[]' $json)
+done <<< $(jq -c '.sessions[]' $config)
 
 
