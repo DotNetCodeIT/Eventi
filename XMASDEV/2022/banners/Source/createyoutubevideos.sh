@@ -16,10 +16,10 @@ fi
 json=$(cat $config)
 
 while read session; do
-    title = jq -r '.title' <<< $session
-    echo $(title)
-    description = jq -r '.description' <<< $session
-    echo $(description)
+   title=$(jq -r '.title' <<< "$session")
+   echo $(title)
+   description=$(jq -r '.description' <<< "$session")
+   echo $(description)
 done <<< $(jq -c '.sessions[]' $config)
 
 json=$(cat $config)
