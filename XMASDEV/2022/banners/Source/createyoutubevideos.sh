@@ -15,10 +15,8 @@ fi
  
 json=$(cat $config)
 
-for row in $(echo "${json}" | jq -r '.[]); do
-    _jq() {
-     echo ${row} | jq -r ${1}
-    }
-   echo $(_jq '.sessions')
-done
+while read user; do
+    jq -r '.title' <<< $user
+done <<< $(jq -c '.sessions[]' $json)
+
 
