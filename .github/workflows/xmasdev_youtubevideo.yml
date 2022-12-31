@@ -31,6 +31,10 @@ jobs:
       #  path: main
     - uses: FedericoCarboni/setup-ffmpeg@v2
       id: setup-ffmpeg
+    - name: Setup yt-dlp
+      uses: AnimMouse/setup-yt-dlp@v1
+      with:
+        with-ffmpeg: true
 # Runs a single command using the runners shell
       #echo "Hello ${{ github.event.inputs.name }}"
     - name: create video files
