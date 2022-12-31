@@ -15,8 +15,18 @@ fi
  
 json=$(cat $config)
 
-while read user; do
-    jq -r '.title' <<< $user
+while read session; do
+    title = jq -r '.title' <<< $session
+    echo $(title)
+    description = jq -r '.description' <<< $session
+    echo $(description)
 done <<< $(jq -c '.sessions[]' $config)
 
+json=$(cat $config)
+
+readJsonConfig() {
+        echo $json | jq -r $1
+}
+
+echo $(readJsonConfig ".groupName")
 
