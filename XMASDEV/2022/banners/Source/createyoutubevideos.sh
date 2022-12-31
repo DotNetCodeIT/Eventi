@@ -14,9 +14,11 @@ if [ ! -f "$config" ]; then
 fi
  
 json=$(cat $config)
- 
-readJsonConfig() {
-        echo $json | jq -r $1
-}
- 
-echo $(readJsonConfig ".data.x")
+
+for row in $(echo "${json}" | jq -r '.[]); do
+    _jq() {
+     echo ${row} | jq -r ${1}
+    }
+   echo $(_jq '.sessions')
+done
+
