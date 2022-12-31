@@ -37,6 +37,6 @@ jobs:
       #shell: bash
       run: |
         cd XMASDEV/2022/banners/Source
-        bash createyoutubevideos.sh
+        bash createyoutubevideos.sh createyoutubevideos.json
 
    
