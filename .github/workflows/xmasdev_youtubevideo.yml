@@ -19,7 +19,7 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "greet"
-  makefile:
+  makevideo:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     environment: workflow
@@ -33,7 +33,7 @@ jobs:
       id: setup-ffmpeg
 # Runs a single command using the runners shell
       #echo "Hello ${{ github.event.inputs.name }}"
-    - name: create file
+    - name: create video files
       #shell: bash
       run: |
         cd XMASDEV/2022/banners/Source
