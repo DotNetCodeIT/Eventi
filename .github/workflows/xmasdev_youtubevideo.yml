@@ -10,9 +10,9 @@ on:
     inputs:
       name:
         # Friendly description to be shown in the UI instead of 'name'
-        description: 'Output filename'
+        description: 'Output filename prefix'
         # Default value if no value is explicitly provided
-        default: 'xmasdev.mp3'
+        default: 'xmasdev'
         # Input has to be provided for the workflow to run
         required: true
 
