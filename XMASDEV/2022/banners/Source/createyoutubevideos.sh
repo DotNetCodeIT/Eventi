@@ -33,6 +33,12 @@ while read session; do
    echo $title
    description=$(jq -r '.description' <<< "$session")
    echo $description
+   roomId=$(jq -r '.roomId' <<< "$session")
+   sessionId=$(jq -r '.id' <<< "$session")
+   liveStart=$(jq -r '.liveStartAt' <<< "$session")
+   liveEnd=$(jq -r '.liveEndAt' <<< "$session")
+   echo ffmpeg -ss $liveStart -to $liveEnd -i "$roomId.mp4" -c copy "$sessionId.mp4"
+   ffmpeg -ss $liveStart -to $liveEnd -i "$roomId.mp4" -c copy "$sessionId.mp4"
 done <<< $(jq -c '.sessions[]' $config)
 
 json=$(cat $config)
