@@ -22,7 +22,8 @@ while read youtube; do
    echo $roomId
    url=$(jq -r '.url' <<< "$youtube")
    echo $url
-   yt-dlp --downloader aria2c $url -o "$roomId.%(ext)s"
+   yt-dlp --downloader aria2c -S res,ext:mp4:m4a --recode mp4  $url -o "$roomId.mp4"
+
    
 done <<< $(jq -c '.youtubelive[]' $config)
 
