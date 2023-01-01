@@ -101,7 +101,7 @@
         "liveStartsAt": "00:41:08",
         "liveEndsAt": "01:16:40",
         "isServiceSession": false,
-        "isPlenumSession": false
+        "isPlenumSession": false,
         "speakers": [
           {
             "id": "cf9abded-8aa6-4a45-ab98-334201635c72",
