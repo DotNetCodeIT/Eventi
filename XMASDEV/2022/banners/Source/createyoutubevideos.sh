@@ -27,7 +27,7 @@ while read youtube; do
    
 done <<< $(jq -c '.youtubelive[]' $config)
 
-
+arr=()
 while read session; do
    title=$(jq -r '.title' <<< "$session")
    echo $title
@@ -38,10 +38,11 @@ while read session; do
    liveStart=$(jq -r '.liveStartsAt' <<< "$session")
    liveEnd=$(jq -r '.liveEndsAt' <<< "$session")
    echo ffmpeg -ss $liveStart -to $liveEnd -i "$roomId.mp4" -c copy "$sessionId.mp4" -y
-   ffmpeg -ss $liveStart -to $liveEnd -i "$roomId.mp4" -c copy "$sessionId.mp4" -y
-   sleep 5s # Waits 5 seconds.
+   arr+=(echo ffmpeg -ss $liveStart -to $liveEnd -i "$roomId.mp4" -c copy "$sessionId.mp4" -y)
+   #ffmpeg -ss $liveStart -to $liveEnd -i "$roomId.mp4" -c copy "$sessionId.mp4" -y
+   #sleep 5s # Waits 5 seconds.
 done <<< $(jq -c '.sessions[]' $config)
-
+echo ${arr[@]}
 json=$(cat $config)
 
 readJsonConfig() {
