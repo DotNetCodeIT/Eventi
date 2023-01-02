@@ -37,8 +37,9 @@ while read session; do
    sessionId=$(jq -r '.id' <<< "$session")
    liveStart=$(jq -r '.liveStartsAt' <<< "$session")
    liveEnd=$(jq -r '.liveEndsAt' <<< "$session")
-   echo ffmpeg -ss $liveStart -to $liveEnd -i "$roomId.mp4" -c copy "$sessionId.mp4"
-   #ffmpeg -ss $liveStart -to $liveEnd -i "$roomId.mp4" -c copy "$sessionId.mp4" -y
+   echo ffmpeg -ss $liveStart -to $liveEnd -i "$roomId.mp4" -c copy "$sessionId.mp4" -y
+   ffmpeg -ss $liveStart -to $liveEnd -i "$roomId.mp4" -c copy "$sessionId.mp4" -y
+   sleep 5s # Waits 5 seconds.
 done <<< $(jq -c '.sessions[]' $config)
 
 json=$(cat $config)
