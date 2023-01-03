@@ -43,4 +43,11 @@ jobs:
         cd XMASDEV/2022/banners/Source
         bash createyoutubevideos.sh createyoutubevideos.json
 
-   
+    - name: commit new files
+      #shell: bash
+      run: |
+        git config user.email ${{ secrets.GIT_USERNAME }}
+        git config user.name ${{ secrets.GIT_NAME }}
+        git add .
+        git commit -m 'created video file'
+        git push -f origin master 
