@@ -26,6 +26,7 @@ while read youtube; do
 done <<< $(jq -c '.youtubelive[]' $config)
 
 video=()
+introvideo=()
 videodata=()
 while read session; do
    title=$(jq -r '.title' <<< "$session")
@@ -44,11 +45,15 @@ while read session; do
   #videodata+=("$json_data")
    videodata+=("{\"title\": \"$title\",\"description\":\"$description\"}")
   #videodata+=("$json_data")
+  echo "./createyoutubeintrovideo.sh  -i ../$sessionId.jpeg -o $sessionId-intro.mp4"
+  introvideo+=("./createyoutubeintrovideo.sh  -i ../$sessionId.jpeg -o $sessionId-intro.mp4")
+  
 done <<< $(jq -c '.sessions[]' $config)
 #echo ${video[@]}
 for i in ${!video[@]} # "${video[@]}"
 do
    ${video[$i]}
+   ${introvideo[$i]}
    echo ${videodata[$i]}
    # or do whatever with individual element of the array
 done
