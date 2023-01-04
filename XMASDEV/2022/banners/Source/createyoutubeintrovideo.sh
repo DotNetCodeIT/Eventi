@@ -37,7 +37,8 @@ ffmpeg \
   -loop 1 -t 10 -i $parameterI \
   -loop 1 -t 10 -i ./sponsor-slide.png \
   -loop 1 -t 10 -i $parameterI \
-  -i audio.mp3 \
+  -i audioyt.mp3 \
   -filter_complex "[0]scale=1920:1080[s0];[1]scale=1920:1080[s1];[2]scale=1920:1080[s2]; \
   [s0][s1]xfade=transition=pixelize:duration=1:offset=9,format=yuv420p[s01]; \
-  [s01][s2]xfade=transition=pixelize:duration=1:offset=18,format=yuv420p" $parameterO -y
+  [s01][s2]xfade=transition=pixelize:duration=1:offset=18,format=yuv420p" $parameterO
+
